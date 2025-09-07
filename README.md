@@ -18,7 +18,7 @@ To get the client up and running, follow these steps. A fresh install is recomme
 3.  **Run the client:**
     ```bash
     npm install three
-npm install
+    npm install
     npm start
     ```
     The client will be available at `http://localhost:3001` by default.
