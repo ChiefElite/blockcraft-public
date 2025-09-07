@@ -1,9 +1,72 @@
 # BlockCraft
+### 🚀 Getting Started
 
-BlockCraft is a WebGL implementation of an infinite procedurally-generated voxel world that runs on the browser. This project originally spawned as a Minecraft Classic clone but has expanded to include multiplayer PvP, crafting, shaders and much more!
+#### Running a Local Client
 
-Here's a [summary](https://victorwei.com/blog/blockcraft.pdf) of my development journey!
+To get the client up and running, follow these steps. A fresh install is recommended to avoid any "Module not found" errors, as the project relies on specific versions of the `three.js` library.
 
-Currently, this repo is no longer maintained and support will no longer be provided.
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/ChiefElite/blockcraft-public.git](https://github.com/ChiefElite/blockcraft-public.git)
+    ```
 
-## [Play it online now](https://miniblox.io)
+2.  **Navigate to the client folder:**
+    ```bash
+    cd blockcraft-public/client
+    ```
+
+3.  **Clean and reinstall dependencies:**
+    * Clear the npm cache:
+        ```bash
+        npm cache clean --force
+        ```
+    * Remove existing modules and the lock file:
+        ```bash
+        rm -rf node_modules package-lock.json
+        ```
+    * Install all project dependencies:
+        ```bash
+        npm install
+        ```
+    * Install the compatible version of `three.js` (r137):
+        ```bash
+        npm install three@0.137.0
+        ```
+
+4.  **Run the client:**
+    ```bash
+    npm start
+    ```
+    The client will be available at `http://localhost:3001` by default.
+
+---
+
+### 💻 Running a Local Server
+
+If you want to run the server locally, here are the steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/ChiefElite/blockcraft-public.git](https://github.com/ChiefElite/blockcraft-public.git)
+    ```
+
+2.  **Navigate to the server folder:**
+    ```bash
+    cd blockcraft/server
+    ```
+
+3.  **Install the server dependencies:**
+    ```bash
+    npm install
+    ```
+
+4.  **Set up the environment file:**
+    ```bash
+    cp .env.example .env
+    ```
+
+5.  **Start the server:**
+    ```bash
+    npm start
+    ```
+    The server will be available for direct connections at `http://localhost:3002`.
