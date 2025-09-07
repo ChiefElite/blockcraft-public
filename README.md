@@ -30,7 +30,7 @@ If you want to run the server locally, here are the steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/ChiefElite/blockcraft-public.git](https://github.com/ChiefElite/blockcraft-public.git)
+    git clone https://github.com/ChiefElite/blockcraft-public.git
     ```
 
 2.  **Navigate to the server folder:**
