@@ -14,13 +14,11 @@ To get the client up and running, follow these steps. A fresh install is recomme
     ```bash
     cd blockcraft-public/client
     ```
-3. **Install Three**
- ```bash
-    npm install three
-    ```
-4.  **Run the client:**
+
+3.  **Run the client:**
     ```bash
-    npm install
+    npm install three
+npm install
     npm start
     ```
     The client will be available at `http://localhost:3001` by default.
