@@ -15,26 +15,9 @@ To get the client up and running, follow these steps. A fresh install is recomme
     cd blockcraft-public/client
     ```
 
-3.  **Clean and reinstall dependencies:**
-    * Clear the npm cache:
-        ```bash
-        npm cache clean --force
-        ```
-    * Remove existing modules and the lock file:
-        ```bash
-        rm -rf node_modules package-lock.json
-        ```
-    * Install all project dependencies:
-        ```bash
-        npm install
-        ```
-    * Install the compatible version of `three.js` (r137):
-        ```bash
-        npm install three@0.137.0
-        ```
-
 4.  **Run the client:**
     ```bash
+    npm install
     npm start
     ```
     The client will be available at `http://localhost:3001` by default.
